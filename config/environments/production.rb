@@ -81,5 +81,5 @@ Rails.application.configure do
 
   config.action_controller.asset_host = 'https://divorceformapp.herokuapp.com/'
   config.action_mailer.default_url_options = { :host => "formsmama.com" }
-  config.action_mailer.asset_host = "http://formsmama.com"
+  config.action_mailer.asset_host = "https://divorceformapp.herokuapp.com/"
 end
