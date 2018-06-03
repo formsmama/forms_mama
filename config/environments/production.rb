@@ -79,7 +79,7 @@ Rails.application.configure do
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
 
-  config.action_controller.asset_host = 'http://formsmama.com/'
+  config.action_controller.asset_host = 'https://divorceformapp.herokuapp.com/'
   config.action_mailer.default_url_options = { :host => "formsmama.com" }
   config.action_mailer.asset_host = "http://formsmama.com"
 end
