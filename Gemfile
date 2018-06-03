@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby ' 2.3.0'  
+ruby ' 2.3.0'
 
 gem 'rails', '4.1.1'
 gem 'pg'
@@ -37,3 +37,5 @@ gem 'whenever', :require => false
 gem 'american_date'
 
 gem 'exception_notification'
+
+gem 'rails_12factor', group: :production
